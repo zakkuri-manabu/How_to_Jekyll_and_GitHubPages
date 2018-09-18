@@ -19,57 +19,31 @@
 
                     <div class="col-12 col-lg-3  col-md-4 col-sm-6 col-xs-6">
                         <div class="box">
-                            <a href="/introduce">
+                            <a href="{{ site.posts[-1].url }}">
                                 <div class="img-box">
                                     <img class="img" src="img/introduce.png">
                                 </div>
                                 <div class="text-box">
-                                    <h2>ブルーモアイ<br>自己紹介</h2>
+                                    <h2>{{ site.posts[-1].title }}</h2>
                                 </div>
                             </a>
                         </div>
                     </div>
 
-                    
+                    {% for post in site.categories.article %}
                         <div class="col-12 col-lg-3  col-md-4 col-sm-6 col-xs-6">
                             <div class="box">
-                                <a href="/article-1">
+                                <a href="{{ post.url }}">
                                     <div class="img-box">
-                                        <img class="img" src="img//article-1.png">
+                                        <img class="img" src="img/{{ post.url }}.png">
                                     </div>
                                     <div class="text-box">
-                                        <h2>Progateレビュー</h2>
+                                        <h2>{{ post.title }}</h2>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                    
-                        <div class="col-12 col-lg-3  col-md-4 col-sm-6 col-xs-6">
-                            <div class="box">
-                                <a href="/article-3">
-                                    <div class="img-box">
-                                        <img class="img" src="img//article-3.png">
-                                    </div>
-                                    <div class="text-box">
-                                        <h2>paizaレビュー</h2>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-12 col-lg-3  col-md-4 col-sm-6 col-xs-6">
-                            <div class="box">
-                                <a href="/article-2">
-                                    <div class="img-box">
-                                        <img class="img" src="img//article-2.png">
-                                    </div>
-                                    <div class="text-box">
-                                        <h2>Aidemyレビュー</h2>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    
+                    {% endfor %}
 
                     <div class="col-12 col-lg-3  col-md-4 col-sm-6 col-xs-6">
                         <div class="box">
