@@ -18,4 +18,15 @@ body {
       display: block;
       max-width: 50%;
       margin: 0 auto;
-      padding-bottom: 15px; }
+      border: 1px #57C4B9 solid;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+  #main .gist-meta a {
+    color: #fafafa; }
+  #main .gist-meta {
+    background: #57C4B9 !important;
+    color: #fafafafa; }
+  #main .gist-data {
+    max-height: 400px !important; }
+  #main table.highlight tr:nth-child(2n+1) td {
+    background: #fafafa; }

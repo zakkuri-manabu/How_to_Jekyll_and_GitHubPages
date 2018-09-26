@@ -1,63 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-20T00:18:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlueMoaiBlog</title><subtitle>このサイトはブルーモアイが適当にプログラミング系の話を書くブログです</subtitle><entry><title type="html">jekyllとGitHub Pages</title><link href="http://localhost:4000/article-1" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllとGitHub Pages&lt;/strong&gt;" /><published>2018-09-19T15:48:00+09:00</published><updated>2018-09-19T15:48:00+09:00</updated><id>http://localhost:4000/jekyll-blog-1</id><content type="html" xml:base="http://localhost:4000/article-1">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-26T12:54:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlueMoaiBlog</title><subtitle>このサイトはブルーモアイが適当にプログラミング系の話を書くブログです</subtitle><entry><title type="html">jekyllとGitHub Pages</title><link href="http://localhost:4000/article-1" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllとGitHub Pages&lt;/strong&gt;" /><published>2018-09-19T15:48:00+09:00</published><updated>2018-09-19T15:48:00+09:00</updated><id>http://localhost:4000/jekyll-blog-1</id><content type="html" xml:base="http://localhost:4000/article-1">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;jekyllとは&quot;&gt;&lt;strong&gt;jekyllとは&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/img/article-1-1.png&quot; alt=&quot;jekyll-logo&quot; /&gt;
 &lt;br /&gt;
-&lt;a href=&quot;https://jekyllrb-ja.github.io/&quot;&gt;jekyll&lt;/a&gt;とは静的サイトジェネレータです。HTMLとMarkdown/textを自動で合体させ、GitHub Pagesで使えるファイル群に変換することができます。イメージとしてはこんな感じー&lt;br /&gt;
-&lt;br /&gt; 
-&lt;strong&gt;HTML + 記事を記述したMarkdown/text ⇒ 記事を記述したHTML&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://jekyllrb-ja.github.io/&quot;&gt;jekyll&lt;/a&gt;をざっくり表せば、HTMLやMarkdownファイルをGitHub Pagesが扱える形に変換する&lt;strong&gt;無料&lt;/strong&gt;アプリです。&lt;br /&gt;
 &lt;br /&gt;
+このアプリの優位な点は、「&lt;strong&gt;HTML + 文章を記述したMarkdown/text ⇒ 記事を記述したHTML&lt;/strong&gt;」という強力な機能にあります。この機能によって、レイアウト用のHTML/css/JSを一度作ってしまえば、後はMarkdownやtextファイルに文章を書くだけでブログを更新できます。いちいち記事用のHTMLファイルを作らなくていいわけです。&lt;br /&gt;
+&lt;br /&gt;
+ざっくりした機能はー&lt;br /&gt;
+・HTMLとMarkdown/textファイルを自動で合体させる&lt;br /&gt;
+・scssやCoffeeScriptをcssやJavaScriptに変換する&lt;br /&gt;
+・GitHub Pageにpushするための”_site”というディレクトリを生成する
+&lt;br /&gt; &lt;br /&gt;
 扱える言語／形式は以下になります。&lt;br /&gt;
-HTML&lt;br /&gt;
-css/Sass&lt;br /&gt;
-JavaScript/CoffeeScript&lt;br /&gt;
-Markdown/Text&lt;br /&gt;
+・HTML&lt;br /&gt;
+・css/Sass&lt;br /&gt;
+・JavaScript/CoffeeScript&lt;br /&gt;
+・Markdown/text&lt;br /&gt;
 &lt;br /&gt;
-SassとCoffeeScriptのコンパイル機能もついており、変換時にcssとJavaScriptに出力されます。&lt;br /&gt;
-静的サイト生成用のソフトであり、動的なことは行えません。データベースを使うことは基本的にできないでしょう。（外部のデータベースサービスを使えばいけるかも？）&lt;br /&gt;
+静的サイト生成用のアプリであり、動的なことは行えません。データベースを使うことは基本的にできないでしょう。（外部のデータベースサービスを使えばいけるかも？）&lt;br /&gt;
 &lt;br /&gt;
-jekyllに制約はありますが、簡単にサイトを立ち上げることができます。ぜひ使ってみてください。
-&lt;br /&gt;
+以上のように、jekyllにはいくつかの制約があるものの、簡単にサイトの立ち上げができる有用なソフトです。ぜひ使ってみてください。&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;github-pagesとは&quot;&gt;&lt;strong&gt;GitHub Pagesとは&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/img/article-1-2.png&quot; alt=&quot;GitHub-Pages-logo&quot; /&gt;
 &lt;br /&gt;
-&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;とは、GitHubが提供している静的サイト構築サービスです。GitHubリポジトリ内のファイル群を読み込み、Webページを生成します。&lt;strong&gt;簡単&lt;/strong&gt;かつ &lt;strong&gt;無料&lt;/strong&gt;で利用できるのが利点です。&lt;br /&gt;
+&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;とは、GitHubが提供している静的サイト構築サービスです。GitHubリポジトリ内のファイル群を読み込み、Webページを生成します。&lt;strong&gt;簡単&lt;/strong&gt;かつ&lt;strong&gt;無料&lt;/strong&gt;で利用できるのが利点です。&lt;br /&gt;
 &lt;br /&gt;
 GitHubを利用してページを生成するため、しばしばプロジェクトの公式サイトとしても利用されます。例えばRuby on RailsやBitcoin、Twitchなどです。他のサンプルは&lt;a href=&quot;https://jekyllrb.com/showcase/&quot;&gt;jekyll公式サイト&lt;/a&gt;から確認してください。&lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;jekyllとgithub-pagesの使い方&quot;&gt;&lt;strong&gt;jekyllとGitHub Pagesの使い方&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;jekyllとgithub-pagesの流れ&quot;&gt;&lt;strong&gt;jekyllとGitHub Pagesの流れ&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/img/article-1-3.png&quot; alt=&quot;GitHub-Pages-logo&quot; /&gt;
 &lt;br /&gt;
 jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。&lt;br /&gt;
 &lt;br /&gt;
-&lt;strong&gt;“jekyll new [blog_name]”でプロジェクト用ディレクトリ作成&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;1. “jekyll new [blog_name]”でプロジェクト用ディレクトリ作成&lt;/strong&gt;&lt;br /&gt;
 　　　　　↓&lt;br /&gt;
-&lt;strong&gt;レイアウト用HTMLや記事を記述したMarkdown/Textファイルを作成&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;2. レイアウト用HTMLや記事を記述したMarkdown/textファイルを作成&lt;/strong&gt;&lt;br /&gt;
 　　　　　↓&lt;br /&gt;
-&lt;strong&gt;“jekyll build”でGitHubへのpush用ディレクトリ”_site”を出力&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;3. “jekyll build”でGitHubへのpush用ディレクトリ”_site”を出力&lt;/strong&gt;&lt;br /&gt;
 　　　　　↓&lt;br /&gt;
-&lt;strong&gt;“_site”をGitHubリポジトリに”push”&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;4. “_site”をGitHubリポジトリに”push”&lt;/strong&gt;&lt;br /&gt;
 　　　　　↓&lt;br /&gt;
-&lt;strong&gt;GitHub上で展開やドメイン設定を行う&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;5. GitHub上で展開やドメイン設定を行う&lt;/strong&gt;&lt;br /&gt;
 　　　　　↓&lt;br /&gt;
 　　　　&lt;strong&gt;完　成&lt;/strong&gt;&lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="プログラミング" /><category term="jekyll" /><category term="Windows" /><summary type="html">jekyllとは jekyllとは静的サイトジェネレータです。HTMLとMarkdown/textを自動で合体させ、GitHub Pagesで使えるファイル群に変換することができます。イメージとしてはこんな感じー HTML + 記事を記述したMarkdown/text ⇒ 記事を記述したHTML 扱える言語／形式は以下になります。 HTML css/Sass JavaScript/CoffeeScript Markdown/Text SassとCoffeeScriptのコンパイル機能もついており、変換時にcssとJavaScriptに出力されます。 静的サイト生成用のソフトであり、動的なことは行えません。データベースを使うことは基本的にできないでしょう。（外部のデータベースサービスを使えばいけるかも？） jekyllに制約はありますが、簡単にサイトを立ち上げることができます。ぜひ使ってみてください。 GitHub Pagesとは GitHub Pagesとは、GitHubが提供している静的サイト構築サービスです。GitHubリポジトリ内のファイル群を読み込み、Webページを生成します。簡単かつ 無料で利用できるのが利点です。 GitHubを利用してページを生成するため、しばしばプロジェクトの公式サイトとしても利用されます。例えばRuby on RailsやBitcoin、Twitchなどです。他のサンプルはjekyll公式サイトから確認してください。 jekyllとGitHub Pagesの使い方 jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。 “jekyll new [blog_name]”でプロジェクト用ディレクトリ作成 　　　　　↓ レイアウト用HTMLや記事を記述したMarkdown/Textファイルを作成 　　　　　↓ “jekyll build”でGitHubへのpush用ディレクトリ”_site”を出力 　　　　　↓ “_site”をGitHubリポジトリに”push” 　　　　　↓ GitHub上で展開やドメイン設定を行う 　　　　　↓ 　　　　完　成</summary></entry><entry><title type="html">Windowsでjekyllを構築する方法</title><link href="http://localhost:4000/article-2" rel="alternate" type="text/html" title="&lt;strong&gt;Windowsでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-19T11:23:00+09:00</published><updated>2018-09-19T11:23:00+09:00</updated><id>http://localhost:4000/jekyll-build-windows</id><content type="html" xml:base="http://localhost:4000/article-2">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+以下、更新の際にはMarkdown/textファイルに文章を記述し、2～4を行うだけです。&lt;/p&gt;</content><author><name></name></author><category term="プログラミング" /><category term="jekyll" /><category term="Windows" /><summary type="html">jekyllとは jekyllをざっくり表せば、HTMLやMarkdownファイルをGitHub Pagesが扱える形に変換する無料アプリです。 このアプリの優位な点は、「HTML + 文章を記述したMarkdown/text ⇒ 記事を記述したHTML」という強力な機能にあります。この機能によって、レイアウト用のHTML/css/JSを一度作ってしまえば、後はMarkdownやtextファイルに文章を書くだけでブログを更新できます。いちいち記事用のHTMLファイルを作らなくていいわけです。 ざっくりした機能はー ・HTMLとMarkdown/textファイルを自動で合体させる ・scssやCoffeeScriptをcssやJavaScriptに変換する ・GitHub Pageにpushするための”_site”というディレクトリを生成する 扱える言語／形式は以下になります。 ・HTML ・css/Sass ・JavaScript/CoffeeScript ・Markdown/text 静的サイト生成用のアプリであり、動的なことは行えません。データベースを使うことは基本的にできないでしょう。（外部のデータベースサービスを使えばいけるかも？） 以上のように、jekyllにはいくつかの制約があるものの、簡単にサイトの立ち上げができる有用なソフトです。ぜひ使ってみてください。 GitHub Pagesとは GitHub Pagesとは、GitHubが提供している静的サイト構築サービスです。GitHubリポジトリ内のファイル群を読み込み、Webページを生成します。簡単かつ無料で利用できるのが利点です。 GitHubを利用してページを生成するため、しばしばプロジェクトの公式サイトとしても利用されます。例えばRuby on RailsやBitcoin、Twitchなどです。他のサンプルはjekyll公式サイトから確認してください。 jekyllとGitHub Pagesの流れ jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。 1. “jekyll new [blog_name]”でプロジェクト用ディレクトリ作成 　　　　　↓ 2. レイアウト用HTMLや記事を記述したMarkdown/textファイルを作成 　　　　　↓ 3. “jekyll build”でGitHubへのpush用ディレクトリ”_site”を出力 　　　　　↓ 4. “_site”をGitHubリポジトリに”push” 　　　　　↓ 5. GitHub上で展開やドメイン設定を行う 　　　　　↓ 　　　　完　成 以下、更新の際にはMarkdown/textファイルに文章を記述し、2～4を行うだけです。</summary></entry><entry><title type="html">Windowsでjekyllを構築する方法</title><link href="http://localhost:4000/article-2" rel="alternate" type="text/html" title="&lt;strong&gt;Windowsでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-19T11:23:00+09:00</published><updated>2018-09-19T11:23:00+09:00</updated><id>http://localhost:4000/jekyll-build-windows</id><content type="html" xml:base="http://localhost:4000/article-2">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;rubyinstallerでrubyをインストール&quot;&gt;RubyInstallerでRubyをインストール&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/img/article-2-1.png&quot; alt=&quot;a&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/img/article-2-1.png&quot; alt=&quot;ruby-installer&quot; /&gt;
 &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;RubyInstaller&lt;/a&gt;でRubyをダウンロード、インストールします。&lt;br /&gt;
 わたしの場合は、WITH DEVKITから太字の推奨バージョンをダウンロードしました。
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;nodejsをインストール&quot;&gt;Node.jsをインストール&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/article-2-2.png&quot; alt=&quot;node.js&quot; /&gt;
+&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Node.js&lt;/a&gt;をダウンロード、インストールします。&lt;br /&gt;
+これはCoffeeScriptを使えるようにするためです。&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;rubyとgemのインストールを確認&quot;&gt;rubyとgemのインストールを確認&lt;/h2&gt;
-&lt;p&gt;インストール後、以下のコマンドでrubyとgemをインストールできたことを確認します。&lt;br /&gt;
-gemとはrubyと供にインストールされたパッケージ管理ツールです。
-インストールできていた場合、コマンドで各バージョンを確認できます。 
+&lt;p&gt;インストール後、以下のコマンドをコマンドプロンプトに打ち込んでください。rubyとgemがインストールできたことを確認します。正常にインストールされた場合は、（出力例）のようにバージョンが表示されます。&lt;br /&gt;
+gemとは、rubyと供にインストールされるパッケージ管理ツールです。 
 &lt;script src=&quot;https://gist.github.com/zakkuri-manabu/6fddf4299928e1b6e3014738bdab6cbc.js&quot;&gt;&lt;/script&gt;
 &lt;br /&gt;
 &lt;br /&gt;
@@ -69,7 +76,7 @@ gemとはrubyと供にインストールされたパッケージ管理ツール�
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="プログラミング" /><category term="jekyll" /><category term="Windows" /><summary type="html">RubyInstallerでRubyをインストール RubyInstallerでRubyをダウンロード、インストールします。 わたしの場合は、WITH DEVKITから太字の推奨バージョンをダウンロードしました。 rubyとgemのインストールを確認 インストール後、以下のコマンドでrubyとgemをインストールできたことを確認します。 gemとはrubyと供にインストールされたパッケージ管理ツールです。 インストールできていた場合、コマンドで各バージョンを確認できます。 jekyllのインストール gemを使ってjekyllをインストールします。 インストールできていた場合、コマンドでバージョンを確認できます。 これでjekyllをWindowsで使う準備は終わりです。</summary></entry><entry><title type="html">Mac/Linuxでjekyllを構築する方法</title><link href="http://localhost:4000/article-3" rel="alternate" type="text/html" title="&lt;strong&gt;Mac/Linuxでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-16T12:11:00+09:00</published><updated>2018-09-16T12:11:00+09:00</updated><id>http://localhost:4000/jekyll-build-mac,unix</id><content type="html" xml:base="http://localhost:4000/article-3">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="プログラミング" /><category term="jekyll" /><category term="Windows" /><summary type="html">RubyInstallerでRubyをインストール RubyInstallerでRubyをダウンロード、インストールします。 わたしの場合は、WITH DEVKITから太字の推奨バージョンをダウンロードしました。 Node.jsをインストール Node.jsをダウンロード、インストールします。 これはCoffeeScriptを使えるようにするためです。 rubyとgemのインストールを確認 インストール後、以下のコマンドをコマンドプロンプトに打ち込んでください。rubyとgemがインストールできたことを確認します。正常にインストールされた場合は、（出力例）のようにバージョンが表示されます。 gemとは、rubyと供にインストールされるパッケージ管理ツールです。 jekyllのインストール gemを使ってjekyllをインストールします。 インストールできていた場合、コマンドでバージョンを確認できます。 これでjekyllをWindowsで使う準備は終わりです。</summary></entry><entry><title type="html">Mac/Linuxでjekyllを構築する方法</title><link href="http://localhost:4000/article-3" rel="alternate" type="text/html" title="&lt;strong&gt;Mac/Linuxでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-16T12:11:00+09:00</published><updated>2018-09-16T12:11:00+09:00</updated><id>http://localhost:4000/jekyll-build-mac,unix</id><content type="html" xml:base="http://localhost:4000/article-3">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;rubyinstallerでrubyをインストール&quot;&gt;RubyInstallerでRubyをインストール&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/img/article-2-1.png&quot; alt=&quot;RubyInstaller&quot; /&gt;
 &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;RubyInstaller&lt;/a&gt;でRubyをダウンロード、インストールします。&lt;br /&gt;
@@ -77,10 +84,16 @@ gemとはrubyと供にインストールされたパッケージ管理ツール�
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;nodejsをインストール&quot;&gt;Node.jsをインストール&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/article-2-2.png&quot; alt=&quot;node.js&quot; /&gt;
+&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Node.js&lt;/a&gt;をダウンロード、インストールします。&lt;br /&gt;
+これはCoffeeScriptを使えるようにするためです。CoffeeScriptが必要ないならば、インストールする必要はないようです。&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;rubyとgemのインストールを確認&quot;&gt;rubyとgemのインストールを確認&lt;/h2&gt;
-&lt;p&gt;インストール後、以下のコマンドでrubyとgemをインストールできたことを確認します。&lt;br /&gt;
-gemとはrubyと供にインストールされたパッケージ管理ツールです。
-インストールできていた場合、コマンドで各バージョンを確認できます。 
+&lt;p&gt;インストール後、以下のコマンドをターミナルに打ち込んでください。rubyとgemがインストールできたことを確認します。正常にインストールされた場合は、（出力例）のようにバージョンが表示されます。&lt;br /&gt;
+gemとは、rubyと供にインストールされるパッケージ管理ツールです。 
 &lt;script src=&quot;https://gist.github.com/zakkuri-manabu/6fddf4299928e1b6e3014738bdab6cbc.js&quot;&gt;&lt;/script&gt;
 &lt;br /&gt;
 &lt;br /&gt;
@@ -92,9 +105,9 @@ gemとはrubyと供にインストールされたパッケージ管理ツール�
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="プログラミング" /><category term="jekyll" /><category term="Mac" /><category term="Linux" /><summary type="html">RubyInstallerでRubyをインストール RubyInstallerでRubyをダウンロード、インストールします。 わたしの場合は、WITH DEVKITから太字の推奨バージョンをダウンロードしました。 rubyとgemのインストールを確認 インストール後、以下のコマンドでrubyとgemをインストールできたことを確認します。 gemとはrubyと供にインストールされたパッケージ管理ツールです。 インストールできていた場合、コマンドで各バージョンを確認できます。 jekyllのインストール gemを使ってjekyllをインストールします。 インストールできていた場合、コマンドでバージョンを確認できます。 これでjekyllをWindowsで使う準備は終わりです。</summary></entry><entry><title type="html">ブルーモアイの自己紹介</title><link href="http://localhost:4000/introduce" rel="alternate" type="text/html" title="&lt;strong&gt;ブルーモアイの自己紹介&lt;/strong&gt;" /><published>2018-09-15T22:38:34+09:00</published><updated>2018-09-15T22:38:34+09:00</updated><id>http://localhost:4000/introduce</id><content type="html" xml:base="http://localhost:4000/introduce">&lt;h2 id=&quot;自己紹介&quot;&gt;自己紹介&lt;/h2&gt;
-&lt;p&gt;このサイトはjekyllとGitHub Pagesで構築されています。このページを作成した時点では、プログラミングを学び始めて半年程度の素人です。そのためこれを作成するために、よく詰まってしまうことがありました。しかし、ブログの世界はWord Pressが主体であるためか、jekyllのブログ構築情報が未だ簡素なものでした。&lt;br /&gt;
-今後jekyllを使いたい方のために、わたしなりのブログ構築情報を記しておきます。&lt;br /&gt;
+これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="プログラミング" /><category term="jekyll" /><category term="Mac" /><category term="Linux" /><summary type="html">RubyInstallerでRubyをインストール RubyInstallerでRubyをダウンロード、インストールします。 わたしの場合は、WITH DEVKITから太字の推奨バージョンをダウンロードしました。 Node.jsをインストール Node.jsをダウンロード、インストールします。 これはCoffeeScriptを使えるようにするためです。CoffeeScriptが必要ないならば、インストールする必要はないようです。 rubyとgemのインストールを確認 インストール後、以下のコマンドをターミナルに打ち込んでください。rubyとgemがインストールできたことを確認します。正常にインストールされた場合は、（出力例）のようにバージョンが表示されます。 gemとは、rubyと供にインストールされるパッケージ管理ツールです。 jekyllのインストール gemを使ってjekyllをインストールします。 インストールできていた場合、コマンドでバージョンを確認できます。 これでjekyllをWindowsで使う準備は終わりです。</summary></entry><entry><title type="html">ブルーモアイの自己紹介</title><link href="http://localhost:4000/introduce" rel="alternate" type="text/html" title="&lt;strong&gt;ブルーモアイの自己紹介&lt;/strong&gt;" /><published>2018-09-15T22:38:34+09:00</published><updated>2018-09-15T22:38:34+09:00</updated><id>http://localhost:4000/introduce</id><content type="html" xml:base="http://localhost:4000/introduce">&lt;h2 id=&quot;自己紹介&quot;&gt;自己紹介&lt;/h2&gt;
+&lt;p&gt;このサイトはjekyllとGitHub Pagesで構築されています。このページを作成した時点で作者は、プログラミングを学び始めて半年程度の素人です。そのため、これを作成する際によく詰まってしまうことがありました。しかし、ブログの世界はWord Pressが主体であるためか、jekyllのブログ構築情報が未だ不足しておりました。&lt;br /&gt;
+今後jekyllを使いたい方のために、わたしなりのブログ構築情報をここに記しておきます。&lt;br /&gt;
 未だ経験不足のため、本ブログの情報にも不足や間違いがあるかとも思います。もし間違いがあれば、TwitterにまでDMして頂ければと思います。&lt;br /&gt;
 稚拙ながら、みなさんの参考になればと思います。
 &lt;br /&gt;
@@ -111,4 +124,4 @@ gemとはrubyと供にインストールされたパッケージ管理ツール�
 　 L＿＿＿&lt;/em&gt;／ ｜&lt;br /&gt;
 　 ＼＿＿＿_／｜&lt;br /&gt;
 　　/　　　　　＼&lt;br /&gt;
-　 /　　　　/　 /&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">自己紹介 このサイトはjekyllとGitHub Pagesで構築されています。このページを作成した時点では、プログラミングを学び始めて半年程度の素人です。そのためこれを作成するために、よく詰まってしまうことがありました。しかし、ブログの世界はWord Pressが主体であるためか、jekyllのブログ構築情報が未だ簡素なものでした。 今後jekyllを使いたい方のために、わたしなりのブログ構築情報を記しておきます。 未だ経験不足のため、本ブログの情報にも不足や間違いがあるかとも思います。もし間違いがあれば、TwitterにまでDMして頂ければと思います。 稚拙ながら、みなさんの参考になればと思います。 　　　 ／￣￣￣＼ 　　　/＿＿＿　 ∧ 　　　L｜ /＿＼｜｜ 　　 //　L＿／｜｜ 　　/／　/　　 ｜｜ 　 /(￣＼)　　 ｜｜ 　｜_二二＿　　 L/ 　｜ ￣￣　　　// 　｜　　　　 ／/ 　 L＿＿＿／ ｜ 　 ＼＿＿＿_／｜ 　　/　　　　　＼ 　 /　　　　/　 /</summary></entry></feed>
+　 /　　　　/　 /&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">自己紹介 このサイトはjekyllとGitHub Pagesで構築されています。このページを作成した時点で作者は、プログラミングを学び始めて半年程度の素人です。そのため、これを作成する際によく詰まってしまうことがありました。しかし、ブログの世界はWord Pressが主体であるためか、jekyllのブログ構築情報が未だ不足しておりました。 今後jekyllを使いたい方のために、わたしなりのブログ構築情報をここに記しておきます。 未だ経験不足のため、本ブログの情報にも不足や間違いがあるかとも思います。もし間違いがあれば、TwitterにまでDMして頂ければと思います。 稚拙ながら、みなさんの参考になればと思います。 　　　 ／￣￣￣＼ 　　　/＿＿＿　 ∧ 　　　L｜ /＿＼｜｜ 　　 //　L＿／｜｜ 　　/／　/　　 ｜｜ 　 /(￣＼)　　 ｜｜ 　｜_二二＿　　 L/ 　｜ ￣￣　　　// 　｜　　　　 ／/ 　 L＿＿＿／ ｜ 　 ＼＿＿＿_／｜ 　　/　　　　　＼ 　 /　　　　/　 /</summary></entry></feed>
