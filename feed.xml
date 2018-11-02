@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-02T21:53:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlueMoaiBlog</title><subtitle>このサイトはブルーモアイが適当にプログラミング系の話を書くブログです</subtitle><entry><title type="html">jekyllのフォルダ/ファイルの役割</title><link href="http://localhost:4000/article-6" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllのフォルダ/ファイルの役割&lt;/strong&gt;" /><published>2018-11-01T12:00:00+09:00</published><updated>2018-11-01T12:00:00+09:00</updated><id>http://localhost:4000/jekyll-directory</id><content type="html" xml:base="http://localhost:4000/article-6">&lt;h2 id=&quot;jekyllのフォルダ構成&quot;&gt;jekyllのフォルダ構成&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-02T22:12:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlueMoaiBlog</title><subtitle>このサイトはブルーモアイが適当にプログラミング系の話を書くブログです</subtitle><entry><title type="html">jekyllのフォルダ/ファイルの役割</title><link href="http://localhost:4000/article-6" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllのフォルダ/ファイルの役割&lt;/strong&gt;" /><published>2018-11-01T12:00:00+09:00</published><updated>2018-11-01T12:00:00+09:00</updated><id>http://localhost:4000/jekyll-directory</id><content type="html" xml:base="http://localhost:4000/article-6">&lt;h2 id=&quot;jekyllのフォルダ構成&quot;&gt;jekyllのフォルダ構成&lt;/h2&gt;
 &lt;p&gt;今回はjekyllで使われる各フォルダの役割について説明します。&lt;br /&gt;
 “jekyll new [blog-name]”や”jekyll build”、”jekyll serve”で自動作成されたフォルダ以外も説明します。必要に応じて各フォルダを自分で作成してください。&lt;/p&gt;
 
@@ -83,7 +83,7 @@ GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です�
 　　　　　↓&lt;br /&gt;
 &lt;strong&gt;・GitHubの準備&lt;/strong&gt;&lt;br /&gt;
 　　　　　↓&lt;br /&gt;
-&lt;strong&gt;・”_src”フォルダを”push”&lt;/strong&gt;&lt;/p&gt;
+&lt;strong&gt;・”_site”フォルダを”push”&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;gitの準備&quot;&gt;Gitの準備&lt;/h2&gt;
 &lt;p&gt;Gitはバージョン管理システムです。おそらく、ほぼ全てのIT企業やプロジェクトで、Gitもしくは同様のシステムが使用されています。GitHub/GitHub Pagesでも必要になるので、まだ扱ったことの無い方は是日触ってください。&lt;/p&gt;
@@ -125,11 +125,11 @@ GitHub登録が終わっていると、&lt;a href=&quot;https://github.com/&quot
 “Repository name”に任意の名前を入力し、”Create repository”を押します。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/article-5/article-5-8.png&quot; alt=&quot;img&quot; /&gt;
-新たなリポジトリが出来上がりました。ここに表示されたURLに”_src”をアップロードすることで、GitHub Pagesで公開することができます。&lt;/p&gt;
+新たなリポジトリが出来上がりました。ここに表示されたURLに”_site”をアップロードすることで、GitHub Pagesで公開することができます。&lt;/p&gt;
 
 &lt;h2 id=&quot;_srcフォルダをpush&quot;&gt;“_src”フォルダを”push”&lt;/h2&gt;
-&lt;p&gt;前回作った”_src”フォルダをGitHubにアップロードします。&lt;br /&gt;
-コマンドプロンプト/ターミナルを開き、Gitを操作していきます。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">GitHub Pagesで公開 前回(Win/Mac.Linux)制作したブログをGitHub Pagesで公開してみます。 GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です。このページではそれぞれを最低限しか説明しません。深く知りたい場合は外部サイトで学習してください。</summary></entry><entry><title type="html">Mac/Linuxでjekyllを構築する方法</title><link href="http://localhost:4000/article-4" rel="alternate" type="text/html" title="&lt;strong&gt;Mac/Linuxでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-19T12:11:00+09:00</published><updated>2018-09-19T12:11:00+09:00</updated><id>http://localhost:4000/jekyll-build-mac,unix</id><content type="html" xml:base="http://localhost:4000/article-4">&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
+&lt;p&gt;前回作った”_site”フォルダをGitHubにアップロードします。&lt;br /&gt;
+コマンドプロンプト/ターミナルを開き、Gitを操作していきます。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">GitHub Pagesで公開 前回(Win/Mac.Linux)制作したブログをGitHub Pagesで公開してみます。 GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です。このページではそれぞれを最低限しか説明しません。深く知りたい場合は外部サイトで学習してください。</summary></entry><entry><title type="html">Windowsでjekyllを使う方法</title><link href="http://localhost:4000/article-3" rel="alternate" type="text/html" title="&lt;strong&gt;Windowsでjekyllを使う方法&lt;/strong&gt;" /><published>2018-09-19T12:11:00+09:00</published><updated>2018-09-19T12:11:00+09:00</updated><id>http://localhost:4000/jekyll-build-windows</id><content type="html" xml:base="http://localhost:4000/article-3">&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
 &lt;p&gt;jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。&lt;/p&gt;
 
 &lt;h3 id=&quot;rubyinstallerでrubyをインストール&quot;&gt;RubyInstallerでRubyをインストール&lt;/h3&gt;
@@ -207,7 +207,7 @@ Cドライブのユーザー内に”[blog-name]”というファイルがで�
 “Welcome to Jekyll!!”をクリックすることで、図のように記事を読むこともできます。&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Mac" /><category term="Linux" /><summary type="html">各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">Windowsでjekyllを使う方法</title><link href="http://localhost:4000/article-3" rel="alternate" type="text/html" title="&lt;strong&gt;Windowsでjekyllを使う方法&lt;/strong&gt;" /><published>2018-09-19T11:23:00+09:00</published><updated>2018-09-19T11:23:00+09:00</updated><id>http://localhost:4000/jekyll-build-windows</id><content type="html" xml:base="http://localhost:4000/article-3">&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
+これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">Mac/Linuxでjekyllを構築する方法</title><link href="http://localhost:4000/article-4" rel="alternate" type="text/html" title="&lt;strong&gt;Mac/Linuxでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-19T11:23:00+09:00</published><updated>2018-09-19T11:23:00+09:00</updated><id>http://localhost:4000/jekyll-build-mac,unix</id><content type="html" xml:base="http://localhost:4000/article-4">&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
 &lt;p&gt;jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。&lt;/p&gt;
 
 &lt;h3 id=&quot;rubyinstallerでrubyをインストール&quot;&gt;RubyInstallerでRubyをインストール&lt;/h3&gt;
@@ -285,7 +285,7 @@ Cドライブのユーザー内に”[blog-name]”というファイルがで�
 “Welcome to Jekyll!!”をクリックすることで、図のように記事を読むこともできます。&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">jekyllとGitHub Pages</title><link href="http://localhost:4000/article-2" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllとGitHub Pages&lt;/strong&gt;" /><published>2018-09-15T15:48:00+09:00</published><updated>2018-09-15T15:48:00+09:00</updated><id>http://localhost:4000/what-jekyll</id><content type="html" xml:base="http://localhost:4000/article-2">&lt;h2 id=&quot;jekyllの概要&quot;&gt;jekyllの概要&lt;/h2&gt;
+これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Mac" /><category term="Linux" /><summary type="html">各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">jekyllとGitHub Pages</title><link href="http://localhost:4000/article-2" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllとGitHub Pages&lt;/strong&gt;" /><published>2018-09-15T15:48:00+09:00</published><updated>2018-09-15T15:48:00+09:00</updated><id>http://localhost:4000/what-jekyll</id><content type="html" xml:base="http://localhost:4000/article-2">&lt;h2 id=&quot;jekyllの概要&quot;&gt;jekyllの概要&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/img/article-2/article-2-1.png&quot; alt=&quot;img&quot; /&gt;
 &lt;a href=&quot;https://jekyllrb-ja.github.io/&quot;&gt;jekyll&lt;/a&gt;とは、Rubyで作られた静的サイトジェネレータです。jekyllはHTML、CSS、JavaScript、Markdownファイルを統合し、所定のフォルダを生成します。この生成されたフォルダをGitHubにPushすることで、GitHub Pagesでサイトを公開できます。&lt;br /&gt;
 簡単かつ無料でブログやサイトを構築できるため、しばしばプロジェクトの公式サイトとしても利用されます。&lt;/p&gt;
