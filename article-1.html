@@ -7,72 +7,64 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/8b185515c6/UntitledProject/style.css">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-        <link href="/css/article.css" rel="stylesheet">
+        <link href="./_sass/article.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link href="./_sass/header.css" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <a href="http://localhost:4000">jekyllとGitHub Pagesの使い方</a>
+        </header>
+    </body>
+</html>
+
         <div id="main">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="box">
-                            <h1><strong>jekyllとGitHub Pages</strong></h1>
-                            <p>2018-09-19 15:48:00 +0900</p>
-                            <p><p><br /></p>
-<h2 id="jekyllとは"><strong>jekyllとは</strong></h2>
-<p><img src="/img/article-1-1.png" alt="jekyll-logo" />
-<br />
-<a href="https://jekyllrb-ja.github.io/">jekyll</a>をざっくり表せば、HTMLやMarkdownファイルをGitHub Pagesが扱える形に変換する<strong>無料</strong>アプリです。<br />
-<br />
-このアプリの優位な点は、「<strong>HTML + 文章を記述したMarkdown/text ⇒ 記事を記述したHTML</strong>」という強力な機能にあります。この機能によって、レイアウト用のHTML/css/JSを一度作ってしまえば、後はMarkdownやtextファイルに文章を書くだけでブログを更新できます。いちいち記事用のHTMLファイルを作らなくていいわけです。<br />
-<br />
-ざっくりした機能はー<br />
-・HTMLとMarkdown/textファイルを自動で合体させる<br />
-・scssやCoffeeScriptをcssやJavaScriptに変換する<br />
-・GitHub Pageにpushするための”_site”というディレクトリを生成する
-<br /> <br />
-扱える言語／形式は以下になります。<br />
-・HTML<br />
-・css/Sass<br />
-・JavaScript/CoffeeScript<br />
-・Markdown/text<br />
-<br />
-静的サイト生成用のアプリであり、動的なことは行えません。データベースを使うことは基本的にできないでしょう。（外部のデータベースサービスを使えばいけるかも？）<br />
-<br />
-以上のように、jekyllにはいくつかの制約があるものの、簡単にサイトの立ち上げができる有用なソフトです。ぜひ使ってみてください。<br />
-<br />
-<br /></p>
-<h2 id="github-pagesとは"><strong>GitHub Pagesとは</strong></h2>
-<p><img src="/img/article-1-2.png" alt="GitHub-Pages-logo" />
-<br />
-<a href="https://pages.github.com/">GitHub Pages</a>とは、GitHubが提供している静的サイト構築サービスです。GitHubリポジトリ内のファイル群を読み込み、Webページを生成します。<strong>簡単</strong>かつ<strong>無料</strong>で利用できるのが利点です。<br />
-<br />
-GitHubを利用してページを生成するため、しばしばプロジェクトの公式サイトとしても利用されます。例えばRuby on RailsやBitcoin、Twitchなどです。他のサンプルは<a href="https://jekyllrb.com/showcase/">jekyll公式サイト</a>から確認してください。<br />
-<br />
-<br /></p>
-<h2 id="jekyllとgithub-pagesの流れ"><strong>jekyllとGitHub Pagesの流れ</strong></h2>
-<p><img src="/img/article-1-3.png" alt="GitHub-Pages-logo" />
-<br />
-jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。<br />
-<br />
-<strong>1. “jekyll new [blog_name]”でプロジェクト用ディレクトリ作成</strong><br />
-　　　　　↓<br />
-<strong>2. レイアウト用HTMLや記事を記述したMarkdown/textファイルを作成</strong><br />
-　　　　　↓<br />
-<strong>3. “jekyll build”でGitHubへのpush用ディレクトリ”_site”を出力</strong><br />
-　　　　　↓<br />
-<strong>4. “_site”をGitHubリポジトリに”push”</strong><br />
-　　　　　↓<br />
-<strong>5. GitHub上で展開やドメイン設定を行う</strong><br />
-　　　　　↓<br />
-　　　　<strong>完　成</strong><br />
-<br />
-以下、更新の際にはMarkdown/textファイルに文章を記述し、2～4を行うだけです。</p>
+                            <h1><strong>このサイトについて</strong></h1>
+                            <p><h2 id="あいさつ">あいさつ</h2>
+<p><img src="/img/article-1/article-1.png" alt="img" />
+このサイトはjekyllとGitHub Pagesで構築しました。<br />
+今後jekyllやGitHub Pagesを使いたい方のために、わたしなりの情報をここに記しておきます。<br />
+未だ経験不足のため、本サイトの情報にも不足や間違いがあるかとも思います。もし間違いがあれば、お手数ですがTwitterにまでDMして頂ければと思います。<br />
+稚拙ながら、みなさんの参考になることを願っています。</p>
 </p>
+                            <div id="link-arrow">
+                                    
+                                    
+                                        <a href="/article-2">
+                                            <span class="icon-arrow-right2"></span>
+                                        </a>
+                                    
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link href="./_sass/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <footer>
+            <a class="twitter" href="https://twitter.com/zakkuri_manabu"><i class="fab fa-twitter"></i></a>
+            <a class="github" href="https://github.com/zakkuri-manabu"><i class="fab fa-github"></i></a>
+        </footer>
+    </body>
+</html>
+
     </body>
 </html>

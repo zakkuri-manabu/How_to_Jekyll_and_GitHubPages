@@ -7,52 +7,107 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/8b185515c6/UntitledProject/style.css">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-        <link href="/css/article.css" rel="stylesheet">
+        <link href="./_sass/article.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link href="./_sass/header.css" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <a href="http://localhost:4000">jekyllとGitHub Pagesの使い方</a>
+        </header>
+    </body>
+</html>
+
         <div id="main">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="box">
-                            <h1><strong>Windowsでjekyllを構築する方法</strong></h1>
-                            <p>2018-09-19 11:23:00 +0900</p>
-                            <p><p><br /></p>
-<h2 id="rubyinstallerでrubyをインストール">RubyInstallerでRubyをインストール</h2>
-<p><img src="/img/article-2-1.png" alt="ruby-installer" />
-<a href="https://rubyinstaller.org/downloads/">RubyInstaller</a>でRubyをダウンロード、インストールします。<br />
-わたしの場合は、WITH DEVKITから太字の推奨バージョンをダウンロードしました。
+                            <h1><strong>jekyllとGitHub Pages</strong></h1>
+                            <p><h2 id="jekyllの概要">jekyllの概要</h2>
+<p><img src="/img/article-2/article-2-1.png" alt="img" />
+<a href="https://jekyllrb-ja.github.io/">jekyll</a>とは、Rubyで作られた静的サイトジェネレータです。jekyllはHTML、CSS、JavaScript、Markdownファイルを統合し、所定のフォルダを生成します。この生成されたフォルダをGitHubにPushすることで、GitHub Pagesでサイトを公開できます。<br />
+簡単かつ無料でブログやサイトを構築できるため、しばしばプロジェクトの公式サイトとしても利用されます。</p>
+
+<h2 id="jekyllの機能">jekyllの機能</h2>
+<p><img src="/img/article-2/article-2-3.png" alt="img" />
+jekyllはHTML、CSS、JavaScript、Markdownファイルなどを読み込み、”_site”フォルダを生成します。この”_site”フォルダをGitHubにPushすることで、GitHub Pagesがサイトを表示できるようになります。<br />
+jekyllは”_site”フォルダを生成する際に、<strong>文章を書いたMarkdownファイル</strong>と<strong>ページレイアウトを書いたHTMLファイル</strong>を自動で統合し、<strong>文章をHTMLタグで囲ったHTMLファイル</strong>を生成します。つまりページレイアウトを一度作ってしまえば、あとは文章を書くだけでブログを更新できます。便利。<br />
 <br />
+扱える言語／形式は以下になります。<br />
+<strong>・HTML</strong><br />
+<strong>・css/Sass</strong><br />
+<strong>・JavaScript/CoffeeScript</strong><br />
+<strong>・Markdown</strong><br />
+<strong>・Liquidテンプレートエンジン</strong><br />
+※SassやCoffeeScriptは、”_site”フォルダを生成する際に自動でcssとJavaScriptに変換されます。<br />
 <br />
-<br /></p>
-<h2 id="nodejsをインストール">Node.jsをインストール</h2>
-<p><img src="/img/article-2-2.png" alt="node.js" />
-<a href="https://nodejs.org/en/download/">Node.js</a>をダウンロード、インストールします。<br />
-これはCoffeeScriptを使えるようにするためです。<br />
+静的サイト生成用のアプリであり、動的なことは行えません。データベースを使うことは基本的にできないと思われます。（外部のデータベースサービスを使えばいけるかも？）<br />
 <br />
+以上のように、jekyllとGitHub Pagesには制約があるものの、簡単にサイトの立ち上げができる有用なサービスです。ぜひ使ってみてください。</p>
+
+<h2 id="github-pagesとは">GitHub Pagesとは</h2>
+<p><img src="/img/article-2/article-2-4.png" alt="img" />
+<a href="https://pages.github.com/">GitHub Pages</a>とは、GitHubが提供している静的サイト構築サービスです。GitHubリポジトリ内のファイル群を読み込み、Webページを生成します。<strong>簡単</strong>かつ<strong>無料</strong>で利用できるのが利点です。<br />
 <br />
-<br /></p>
-<h2 id="rubyとgemのインストールを確認">rubyとgemのインストールを確認</h2>
-<p>インストール後、以下のコマンドをコマンドプロンプトに打ち込んでください。rubyとgemがインストールできたことを確認します。正常にインストールされた場合は、（出力例）のようにバージョンが表示されます。<br />
-gemとは、rubyと供にインストールされるパッケージ管理ツールです。 
-<script src="https://gist.github.com/zakkuri-manabu/6fddf4299928e1b6e3014738bdab6cbc.js"></script>
+GitHubを利用してページを生成するため、しばしばプロジェクトの公式サイトとしても利用されます。例えばRuby on RailsやBitcoin、Twitchなどです。他のサンプルは<a href="https://jekyllrb.com/showcase/">jekyll公式サイト</a>から確認してください。</p>
+
+<h2 id="jekyllとgithub-pages公開の流れ">jekyllとGitHub Pages公開の流れ</h2>
+<p><img src="/img/article-2/article-2-5.png" alt="img" />
+jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。<br />
 <br />
+<strong>1. 公開用ファイル群作成</strong><br />
+　　　　　↓<br />
+<strong>2. レイアウト用HTMLやMarkdownファイルを作成</strong><br />
+　　　　　↓<br />
+<strong>3. “_site”フォルダを生成</strong><br />
+　　　　　↓<br />
+<strong>4. “_site”フォルダをGitHubリポジトリに”push”</strong><br />
+　　　　　↓<br />
+<strong>5. GitHub上で展開やドメイン設定を行う</strong><br />
+　　　　　↓<br />
+　　　　<strong>完　成</strong><br />
 <br />
-<br /></p>
-<h2 id="jekyllのインストール">jekyllのインストール</h2>
-<p>gemを使ってjekyllをインストールします。
-インストールできていた場合、コマンドでバージョンを確認できます。
-<script src="https://gist.github.com/zakkuri-manabu/d1dfd661a95e173ae75639dd4d1b0ad2.js"></script>
-<br />
-<br />
-<br />
-これでjekyllをWindowsで使う準備は終わりです。</p>
+以下、記事更新の際にはMarkdownファイルに文章を記述し、2～4を行うだけです。</p>
 </p>
+                            <div id="link-arrow">
+                                    
+                                        <a href="/article-1">
+                                            <span class="icon-arrow-left2"></span>
+                                        </a>
+                                    
+                                    
+                                        <a href="/article-3">
+                                            <span class="icon-arrow-right2"></span>
+                                        </a>
+                                    
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link href="./_sass/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <footer>
+            <a class="twitter" href="https://twitter.com/zakkuri_manabu"><i class="fab fa-twitter"></i></a>
+            <a class="github" href="https://github.com/zakkuri-manabu"><i class="fab fa-github"></i></a>
+        </footer>
+    </body>
+</html>
+
     </body>
 </html>

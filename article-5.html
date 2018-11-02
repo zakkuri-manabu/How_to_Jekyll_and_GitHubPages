@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utg-8">
+        <title>BlueMoaiBlog</title>
+        <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/8b185515c6/UntitledProject/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link href="./_sass/article.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link href="./_sass/header.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="http://localhost:4000">jekyllとGitHub Pagesの使い方</a>
+        </header>
+    </body>
+</html>
+
+        <div id="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="box">
+                            <h1><strong>jekyllブログをGitHub Pagesで公開</strong></h1>
+                            <p><h2 id="github-pagesで公開">GitHub Pagesで公開</h2>
+<p>前回(Win/Mac.Linux)制作したブログをGitHub Pagesで公開してみます。<br />
+GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です。このページではそれぞれを最低限しか説明しません。深く知りたい場合は外部サイトで学習してください。</p>
+
+<h2 id="公開までの流れ">公開までの流れ</h2>
+<p><strong>・jekyllで”_src”フォルダを作成(前回)</strong><br />
+　　　　　↓<br />
+<strong>・Gitの準備</strong><br />
+　　　　　↓<br />
+<strong>・GitHubの準備</strong><br />
+　　　　　↓<br />
+<strong>・”_src”フォルダを”push”</strong></p>
+
+<h2 id="gitの準備">Gitの準備</h2>
+<p>Gitはバージョン管理システムです。おそらく、ほぼ全てのIT企業やプロジェクトで、Gitもしくは同様のシステムが使用されています。GitHub/GitHub Pagesでも必要になるので、まだ扱ったことの無い方は是日触ってください。</p>
+
+<h3 id="gitのインストール">Gitのインストール</h3>
+<p>まずはGitHubを使うためにGitをインストールします。<a href="https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB">Git公式</a>を見てインストールしてください。</p>
+
+<h2 id="githubの準備">GitHubの準備</h2>
+<p>既にGitHubに登録している方は、こちらの章は読み飛ばして結構です。<br />
+まだの方はGitHubに登録してください。</p>
+
+<h3 id="githubに登録">GitHubに登録</h3>
+<p><img src="/img/article-5/article-5-1.png" alt="img" />
+<a href="https://github.com/">GitHub</a>にアクセスし、”Username”/”Email”/”Password”を入力して”Sign up for GitHub”を押してください。<br />
+“Username”は任意の名前を設定できますが、既にその名前が使用されていた場合はエラーが出ます。別の名前を検討してください。</p>
+
+<p><img src="/img/article-5/article-5-2.png" alt="img" />
+“Create an accont”を押して次に進みます。</p>
+
+<p><img src="/img/article-5/article-5-3.png" alt="img" />
+無料・有料プランを選ぶページです。<br />
+無料と有料の違いですが、非公開のリポジトリが作れるかどうかです。後から変更することもできるので、まずは無料プランで始めることを勧めます。”Free”を選択してください。<br />
+ただし、学生の場合は特別な登録プランがあり、”Student Developer Pack”を選択することもできます。<br />
+他は触らずに”Continue”を押してください。</p>
+
+<p><img src="/img/article-5/article-5-4.png" alt="img" />
+自己のスキルを登録するページです。<br />
+面倒でしたら”skip this step”でスキップしてください。</p>
+
+<p><img src="/img/article-5/article-5-5.png" alt="img" />
+以上を終わらすと、↑のような認証メールが届きます。”Verify email address”を押して認証を済ませてください。</p>
+
+<h3 id="リポジトリの作成">リポジトリの作成</h3>
+<p><img src="/img/article-5/article-5-6.png" alt="img" />
+GitHub登録が終わっていると、<a href="https://github.com/">GitHub</a>で自分のページを見ることができます。<br />
+“New repository”を押し、GitHub Pagesで使うリポジトリを作ります。</p>
+
+<p><img src="/img/article-5/article-5-7.png" alt="img" />
+“Repository name”に任意の名前を入力し、”Create repository”を押します。</p>
+
+<p><img src="/img/article-5/article-5-8.png" alt="img" />
+新たなリポジトリが出来上がりました。ここに表示されたURLに”_src”をアップロードすることで、GitHub Pagesで公開することができます。</p>
+
+<h2 id="_srcフォルダをpush">“_src”フォルダを”push”</h2>
+<p>前回作った”_src”フォルダをGitHubにアップロードします。<br />
+コマンドプロンプト/ターミナルを開き、Gitを操作していきます。</p>
+</p>
+                            <div id="link-arrow">
+                                    
+                                        <a href="/article-4">
+                                            <span class="icon-arrow-left2"></span>
+                                        </a>
+                                    
+                                    
+                                        <a href="/article-6">
+                                            <span class="icon-arrow-right2"></span>
+                                        </a>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link href="./_sass/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <footer>
+            <a class="twitter" href="https://twitter.com/zakkuri_manabu"><i class="fab fa-twitter"></i></a>
+            <a class="github" href="https://github.com/zakkuri-manabu"><i class="fab fa-github"></i></a>
+        </footer>
+    </body>
+</html>
+
+    </body>
+</html>
