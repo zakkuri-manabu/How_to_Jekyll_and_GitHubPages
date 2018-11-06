@@ -1,0 +1,12 @@
+footer {
+  display: block;
+  background-color: #fafafa;
+  text-align: center; }
+  footer .fa-twitter {
+    font-size: 40px;
+    padding: 10px;
+    color: #EE5B5B; }
+  footer .fa-github {
+    font-size: 40px;
+    padding: 10px;
+    color: #EE5B5B; }
