@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-15T15:54:22+09:00</updated><id>/feed.xml</id><title type="html">How to jekyll&amp;amp;GitHub Pages</title><entry><title type="html">jekyllのフォルダ/ファイル構成と役割</title><link href="/article-7" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllのフォルダ/ファイル構成と役割&lt;/strong&gt;" /><published>2018-11-02T12:00:00+09:00</published><updated>2018-11-02T12:00:00+09:00</updated><id>/jekyll-directory</id><content type="html" xml:base="/article-7">&lt;h1 id=&quot;コース１２３共通各ディレクトリ説明はコース１のみ&quot;&gt;コース１(２)(３)共通　各ディレクトリ説明はコース１のみ&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-15T15:56:34+09:00</updated><id>/feed.xml</id><title type="html">How to jekyll&amp;amp;GitHub Pages</title><entry><title type="html">jekyllのフォルダ/ファイル構成と役割</title><link href="/article-7" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllのフォルダ/ファイル構成と役割&lt;/strong&gt;" /><published>2018-11-02T12:00:00+09:00</published><updated>2018-11-02T12:00:00+09:00</updated><id>/jekyll-directory</id><content type="html" xml:base="/article-7">&lt;h1 id=&quot;コース１２３共通各ディレクトリ説明はコース１のみ&quot;&gt;コース１(２)(３)共通　各ディレクトリ説明はコース１のみ&lt;/h1&gt;
 &lt;p&gt;　　
 　　
 　　
@@ -382,7 +382,7 @@ jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。&lt;b
 &lt;h1 id=&quot;スライドショー化検討1125まで&quot;&gt;スライドショー化検討（11/25まで&lt;/h1&gt;
 
 &lt;h2 id=&quot;あいさつ&quot;&gt;あいさつ&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/img/article-1/article-1.png&quot; alt=&quot;img&quot; /&gt;
+&lt;p&gt;//&lt;img src=&quot;/img/article-1/article-1.png&quot; alt=&quot;img&quot; /&gt;
 このサイトはjekyllとGitHub Pagesで構築しました。&lt;/p&gt;
 
 &lt;p&gt;本サイトでは以下の3コースを用意しています。
