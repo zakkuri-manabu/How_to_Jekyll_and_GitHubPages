@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-15T15:56:34+09:00</updated><id>/feed.xml</id><title type="html">How to jekyll&amp;amp;GitHub Pages</title><entry><title type="html">jekyllのフォルダ/ファイル構成と役割</title><link href="/article-7" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllのフォルダ/ファイル構成と役割&lt;/strong&gt;" /><published>2018-11-02T12:00:00+09:00</published><updated>2018-11-02T12:00:00+09:00</updated><id>/jekyll-directory</id><content type="html" xml:base="/article-7">&lt;h1 id=&quot;コース１２３共通各ディレクトリ説明はコース１のみ&quot;&gt;コース１(２)(３)共通　各ディレクトリ説明はコース１のみ&lt;/h1&gt;
-&lt;p&gt;　　
-　　
-　　
-　　
-　　
-　　&lt;/p&gt;
-&lt;h2 id=&quot;jekyllのフォルダ構成&quot;&gt;jekyllのフォルダ構成&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-27T10:26:59+09:00</updated><id>/feed.xml</id><title type="html">How to jekyll&amp;amp;GitHub Pages</title><entry><title type="html">jekyllのフォルダ/ファイル構成と役割</title><link href="/article-7" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllのフォルダ/ファイル構成と役割&lt;/strong&gt;" /><published>2018-11-02T12:00:00+09:00</published><updated>2018-11-02T12:00:00+09:00</updated><id>/jekyll-directory</id><content type="html" xml:base="/article-7">&lt;h2 id=&quot;jekyllのフォルダ構成&quot;&gt;jekyllのフォルダ構成&lt;/h2&gt;
 &lt;p&gt;今回はjekyllで使われる各フォルダの役割について説明します。&lt;br /&gt;
 “jekyll new [blog-name]”や”jekyll build”、”jekyll serve”で自動作成されたフォルダ以外も説明します。必要に応じて各フォルダを自分で作成してください。&lt;/p&gt;
 
@@ -79,25 +72,11 @@ jekyllはこれらのファイルを、そのままの形で”_site”フォル
 
 &lt;h3 id=&quot;_site&quot;&gt;_site&lt;/h3&gt;
 
-&lt;h2 id=&quot;jekyllの特別なファイル&quot;&gt;jekyllの特別なファイル&lt;/h2&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">コース１(２)(３)共通　各ディレクトリ説明はコース１のみ 　　 　　 　　 　　 　　 　　 jekyllのフォルダ構成 今回はjekyllで使われる各フォルダの役割について説明します。 “jekyll new [blog-name]”や”jekyll build”、”jekyll serve”で自動作成されたフォルダ以外も説明します。必要に応じて各フォルダを自分で作成してください。</summary></entry><entry><title type="html">GitHub Pagesのドメイン変更方法</title><link href="/article-6" rel="alternate" type="text/html" title="&lt;strong&gt;GitHub Pagesのドメイン変更方法&lt;/strong&gt;" /><published>2018-11-01T12:00:00+09:00</published><updated>2018-11-01T12:00:00+09:00</updated><id>/github%20pages-domain</id><content type="html" xml:base="/article-6">&lt;h1 id=&quot;コース１２３共通&quot;&gt;コース１２３共通&lt;/h1&gt;
-&lt;p&gt;　　
-　　
-　　
-　　
-　　
-　　&lt;/p&gt;
-&lt;h2 id=&quot;ドメインとは&quot;&gt;ドメインとは&lt;/h2&gt;
+&lt;h2 id=&quot;jekyllの特別なファイル&quot;&gt;jekyllの特別なファイル&lt;/h2&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">jekyllのフォルダ構成 今回はjekyllで使われる各フォルダの役割について説明します。 “jekyll new [blog-name]”や”jekyll build”、”jekyll serve”で自動作成されたフォルダ以外も説明します。必要に応じて各フォルダを自分で作成してください。</summary></entry><entry><title type="html">GitHub Pagesのドメイン変更方法</title><link href="/article-6" rel="alternate" type="text/html" title="&lt;strong&gt;GitHub Pagesのドメイン変更方法&lt;/strong&gt;" /><published>2018-11-01T12:00:00+09:00</published><updated>2018-11-01T12:00:00+09:00</updated><id>/github%20pages-domain</id><content type="html" xml:base="/article-6">&lt;h2 id=&quot;ドメインとは&quot;&gt;ドメインとは&lt;/h2&gt;
 
 &lt;h2 id=&quot;github-pagesドメインの変更&quot;&gt;GitHub Pagesドメインの変更&lt;/h2&gt;
 
-&lt;p&gt;##&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">コース１２３共通 　　 　　 　　 　　 　　 　　 ドメインとは</summary></entry><entry><title type="html">jekyllブログをGitHub Pagesで公開</title><link href="/article-5" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllブログをGitHub Pagesで公開&lt;/strong&gt;" /><published>2018-10-19T15:48:00+09:00</published><updated>2018-10-19T15:48:00+09:00</updated><id>/deploy-github%20pages</id><content type="html" xml:base="/article-5">&lt;h1 id=&quot;コース１２３共通&quot;&gt;コース１２３共通&lt;/h1&gt;
-&lt;p&gt;　　
-　　
-　　
-　　
-　　
-　　&lt;/p&gt;
-&lt;h2 id=&quot;github-pagesで公開&quot;&gt;GitHub Pagesで公開&lt;/h2&gt;
+&lt;p&gt;##&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">ドメインとは</summary></entry><entry><title type="html">jekyllブログをGitHub Pagesで公開</title><link href="/article-5" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllブログをGitHub Pagesで公開&lt;/strong&gt;" /><published>2018-10-19T15:48:00+09:00</published><updated>2018-10-19T15:48:00+09:00</updated><id>/deploy-github%20pages</id><content type="html" xml:base="/article-5">&lt;h2 id=&quot;github-pagesで公開&quot;&gt;GitHub Pagesで公開&lt;/h2&gt;
 &lt;p&gt;前回(Win/Mac.Linux)制作したブログをGitHub Pagesで公開してみます。&lt;br /&gt;
 GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です。このページではそれぞれを最低限しか説明しません。深く知りたい場合は外部サイトで学習してください。&lt;/p&gt;
 
@@ -154,14 +133,7 @@ GitHub登録が終わっていると、&lt;a href=&quot;https://github.com/&quot
 
 &lt;h2 id=&quot;_siteフォルダをpush&quot;&gt;“_site”フォルダを”push”&lt;/h2&gt;
 &lt;p&gt;前回作った”_site”フォルダをGitHubにアップロードします。&lt;br /&gt;
-コマンドプロンプト/ターミナルを開き、Gitを操作していきます。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">コース１２３共通 　　 　　 　　 　　 　　 　　 GitHub Pagesで公開 前回(Win/Mac.Linux)制作したブログをGitHub Pagesで公開してみます。 GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です。このページではそれぞれを最低限しか説明しません。深く知りたい場合は外部サイトで学習してください。</summary></entry><entry><title type="html">Windowsでjekyllを使う方法</title><link href="/article-3" rel="alternate" type="text/html" title="&lt;strong&gt;Windowsでjekyllを使う方法&lt;/strong&gt;" /><published>2018-09-19T12:11:00+09:00</published><updated>2018-09-19T12:11:00+09:00</updated><id>/jekyll-build-windows</id><content type="html" xml:base="/article-3">&lt;h1 id=&quot;コース１２３共通windowsのみリンクで選択させるフォームでdom操作も可&quot;&gt;コース１２３共通/Windowsのみ　リンクで選択させる/フォームでDOM操作も可？&lt;/h1&gt;
-&lt;p&gt;　　
-　　
-　　
-　　
-　　
-　　&lt;/p&gt;
-&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
+コマンドプロンプト/ターミナルを開き、Gitを操作していきます。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">GitHub Pagesで公開 前回(Win/Mac.Linux)制作したブログをGitHub Pagesで公開してみます。 GitHub Pagesでの公開には、Git・GitHub・jekyllの知識が必要です。このページではそれぞれを最低限しか説明しません。深く知りたい場合は外部サイトで学習してください。</summary></entry><entry><title type="html">Windowsでjekyllを使う方法</title><link href="/article-3" rel="alternate" type="text/html" title="&lt;strong&gt;Windowsでjekyllを使う方法&lt;/strong&gt;" /><published>2018-09-19T12:11:00+09:00</published><updated>2018-09-19T12:11:00+09:00</updated><id>/jekyll-build-windows</id><content type="html" xml:base="/article-3">&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
 &lt;p&gt;jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。&lt;/p&gt;
 
 &lt;h3 id=&quot;rubyinstallerでrubyをインストール&quot;&gt;RubyInstallerでRubyをインストール&lt;/h3&gt;
@@ -239,14 +211,7 @@ Cドライブのユーザー内に”[blog-name]”というファイルがで�
 “Welcome to Jekyll!!”をクリックすることで、図のように記事を読むこともできます。&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">コース１２３共通/Windowsのみ　リンクで選択させる/フォームでDOM操作も可？ 　　 　　 　　 　　 　　 　　 各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">Mac/Linuxでjekyllを構築する方法</title><link href="/article-4" rel="alternate" type="text/html" title="&lt;strong&gt;Mac/Linuxでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-19T11:23:00+09:00</published><updated>2018-09-19T11:23:00+09:00</updated><id>/jekyll-build-mac,unix</id><content type="html" xml:base="/article-4">&lt;h1 id=&quot;コース１２３共通maclinuxのみリンクで選択させるフォームでdom操作も可&quot;&gt;コース１２３共通/Mac/Linuxのみ　リンクで選択させる/フォームでDOM操作も可？&lt;/h1&gt;
-&lt;p&gt;　　
-　　
-　　
-　　
-　　
-　　&lt;/p&gt;
-&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
+これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">Mac/Linuxでjekyllを構築する方法</title><link href="/article-4" rel="alternate" type="text/html" title="&lt;strong&gt;Mac/Linuxでjekyllを構築する方法&lt;/strong&gt;" /><published>2018-09-19T11:23:00+09:00</published><updated>2018-09-19T11:23:00+09:00</updated><id>/jekyll-build-mac,unix</id><content type="html" xml:base="/article-4">&lt;h2 id=&quot;各種ソフトをインストール&quot;&gt;各種ソフトをインストール&lt;/h2&gt;
 &lt;p&gt;jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。&lt;/p&gt;
 
 &lt;h3 id=&quot;rubyinstallerでrubyをインストール&quot;&gt;RubyInstallerでRubyをインストール&lt;/h3&gt;
@@ -324,14 +289,7 @@ Cドライブのユーザー内に”[blog-name]”というファイルがで�
 “Welcome to Jekyll!!”をクリックすることで、図のように記事を読むこともできます。&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Mac" /><category term="Linux" /><summary type="html">コース１２３共通/Mac/Linuxのみ　リンクで選択させる/フォームでDOM操作も可？ 　　 　　 　　 　　 　　 　　 各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">jekyllとGitHub Pages</title><link href="/article-2" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllとGitHub Pages&lt;/strong&gt;" /><published>2018-09-15T15:48:00+09:00</published><updated>2018-09-15T15:48:00+09:00</updated><id>/what-jekyll</id><content type="html" xml:base="/article-2">&lt;h1 id=&quot;コース１２３-表現をもっと簡単にコース1のみ深い説明を表示&quot;&gt;コース１(２)(３) 表現をもっと簡単に　コース1のみ深い説明を表示&lt;/h1&gt;
-&lt;p&gt;　　
-　　
-　　
-　　
-　　
-　　&lt;/p&gt;
-&lt;h2 id=&quot;jekyllの概要&quot;&gt;jekyllの概要&lt;/h2&gt;
+これでjekyllをWindowsで使う準備は終わりです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Mac" /><category term="Linux" /><summary type="html">各種ソフトをインストール jekyllのインストールにはRuby、Node.jsのインストールが必要です。先にこれらのインストールを行います。</summary></entry><entry><title type="html">jekyllとGitHub Pages</title><link href="/article-2" rel="alternate" type="text/html" title="&lt;strong&gt;jekyllとGitHub Pages&lt;/strong&gt;" /><published>2018-09-15T15:48:00+09:00</published><updated>2018-09-15T15:48:00+09:00</updated><id>/what-jekyll</id><content type="html" xml:base="/article-2">&lt;h2 id=&quot;jekyllの概要&quot;&gt;jekyllの概要&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/img/article-2/article-2-1.png&quot; alt=&quot;img&quot; /&gt;
 &lt;a href=&quot;https://jekyllrb-ja.github.io/&quot;&gt;jekyll&lt;/a&gt;とは、Rubyで作られた静的サイトジェネレータです。&lt;/p&gt;
 
@@ -374,24 +332,17 @@ jekyllとGitHub Pagesは、おおよそ以下の流れで利用します。&lt;b
 　　　　　↓&lt;br /&gt;
 　　　　&lt;strong&gt;完　成&lt;/strong&gt;&lt;br /&gt;
 &lt;br /&gt;
-以下、記事更新の際にはMarkdownファイルに文章を記述し、2～4を行うだけです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">コース１(２)(３) 表現をもっと簡単に　コース1のみ深い説明を表示 　　 　　 　　 　　 　　 　　 jekyllの概要 jekyllとは、Rubyで作られた静的サイトジェネレータです。</summary></entry><entry><title type="html">このサイトについて</title><link href="/article-1" rel="alternate" type="text/html" title="&lt;strong&gt;このサイトについて&lt;/strong&gt;" /><published>2018-09-14T22:38:34+09:00</published><updated>2018-09-14T22:38:34+09:00</updated><id>/introduce</id><content type="html" xml:base="/article-1">&lt;h1 id=&quot;コース１２３共通リンクハブ&quot;&gt;コース１２３共通／リンクハブ&lt;/h1&gt;
-&lt;h1 id=&quot;ここからwinとmlコースを分けることも検討&quot;&gt;ここからWinとM/Lコースを分けることも検討&lt;/h1&gt;
-
-&lt;h1 id=&quot;データベース無し&quot;&gt;データベース無し&lt;/h1&gt;
-&lt;h1 id=&quot;テスト用コンピュータ用意職&quot;&gt;テスト用コンピュータ用意（職&lt;/h1&gt;
-&lt;h1 id=&quot;スライドショー化検討1125まで&quot;&gt;スライドショー化検討（11/25まで&lt;/h1&gt;
-
-&lt;h2 id=&quot;あいさつ&quot;&gt;あいさつ&lt;/h2&gt;
-&lt;p&gt;//&lt;img src=&quot;/img/article-1/article-1.png&quot; alt=&quot;img&quot; /&gt;
+以下、記事更新の際にはMarkdownファイルに文章を記述し、2～4を行うだけです。&lt;/p&gt;</content><author><name></name></author><category term="programming" /><category term="jekyll" /><category term="Windows" /><summary type="html">jekyllの概要 jekyllとは、Rubyで作られた静的サイトジェネレータです。</summary></entry><entry><title type="html">このサイトについて</title><link href="/article-1" rel="alternate" type="text/html" title="&lt;strong&gt;このサイトについて&lt;/strong&gt;" /><published>2018-09-14T22:38:34+09:00</published><updated>2018-09-14T22:38:34+09:00</updated><id>/introduce</id><content type="html" xml:base="/article-1">&lt;h2 id=&quot;あいさつ&quot;&gt;あいさつ&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/article-1/article-1.png&quot; alt=&quot;img&quot; /&gt;
 このサイトはjekyllとGitHub Pagesで構築しました。&lt;/p&gt;
 
-&lt;p&gt;本サイトでは以下の3コースを用意しています。
-&lt;strong&gt;・一からブログ作成コース&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;・テンプレートでブログ作成コース&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;・GUIで楽々ブログ作成コース&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;本サイトでは以下の3コースを用意しています。&lt;/del&gt;
+&lt;del&gt;&lt;strong&gt;・一からブログ作成コース&lt;/strong&gt;&lt;/del&gt;&lt;br /&gt;
+&lt;del&gt;&lt;strong&gt;・テンプレートでブログ作成コース&lt;/strong&gt;&lt;/del&gt;&lt;br /&gt;
+&lt;del&gt;&lt;strong&gt;・GUIで楽々ブログ作成コース&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;・一からブログ作成コース&lt;/strong&gt;は、HTML/css/JavaScriptをつかってブログを作成します。コーディングが伴うため、もっとも難易度が高くなります。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;&lt;strong&gt;*・一からブログ作成コース&lt;/strong&gt;は、HTML/css/JavaScriptをつかってブログを作成します。コーディングが伴うため、もっとも難易度が高くなります。&lt;/del&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;・テンプレートでブログ作成コース&lt;/strong&gt;は、既に用意されたテンプレートを使ってブログを作成します。ほとんどコーディングを行わないため、難易度は比較的低めです。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;&lt;strong&gt;・テンプレートでブログ作成コース&lt;/strong&gt;は、既に用意されたテンプレートを使ってブログを作成します。ほとんどコーディングを行わないため、難易度は比較的低めです。&lt;/del&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;・GUIで楽々ブログ作成コース&lt;/strong&gt;は、Jekyll Adminというソフトを使うことで、もっとも簡単にブログを作成します。&lt;/p&gt;</content><author><name></name></author><summary type="html">コース１２３共通／リンクハブ ここからWinとM/Lコースを分けることも検討</summary></entry></feed>
+&lt;p&gt;&lt;del&gt;&lt;strong&gt;・GUIで楽々ブログ作成コース&lt;/strong&gt;は、Jekyll Adminというソフトを使うことで、もっとも簡単にブログを作成します。&lt;/del&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">あいさつ このサイトはjekyllとGitHub Pagesで構築しました。 本サイトでは以下の3コースを用意しています。 ・一からブログ作成コース ・テンプレートでブログ作成コース ・GUIで楽々ブログ作成コース *・一からブログ作成コースは、HTML/css/JavaScriptをつかってブログを作成します。コーディングが伴うため、もっとも難易度が高くなります。</summary></entry></feed>
